@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <style>
+        .contaner{
+           max-width: 1200px;
+            width: 90%;
+            margin: auto;
+            
+            
+        }
+    </style>
+</head>
+<body class="bg-yellow-100">
+    <div class="contaner">
+    <div class=" md:p-10 p-2  px-5 md:px-0">
+        <h1 class="text-center text-purple-600 text-5xl md:text-7xl">Let's get some <span class="text-purple-700 font-extrabold">moooooooney !!!</span></h1>
+        <section id="first-section"class="mt-10 ">
+            <div class="md:flex   mx-auto items-center">
+                <div class=" bg-teal-100 p-8 rounded-xl mt-4 md:mt-0 md:w-2/5 md:mr-4">
+                    <h1 class="text-white text-3xl font-bold">Deposit</h1>
+                    <h2 class="text-white text-4xl font-bold">$<span id="addmoney">00</span></h2>
+                                    </div>
+                <div class=" bg-violet-100 p-8 rounded-xl mt-4 md:mt-0 md:w-2/5 md:mr-4">
+                    <h1 class="text-white text-3xl font-bold">Withdraw</h1>
+                    <h2 class="text-white text-4xl font-bold">$<span id="minusmoney">00</span></h2>
+                                    </div>
+                                    <div class=" bg-red-100 p-8 rounded-xl mt-4 md:mt-0 md:w-2/5 md:mr-4">
+                                        <h1 class="text-white text-3xl font-bold">Balance</h1>
+                                        <h2 class="text-white text-4xl font-bold">$<span id="balance">1200</span></h2>
+                                                        </div>
+            </div>
+        </section>
+        <!--section-2-->
+        <section id="first-section"class="mt-10 ">
+            <div class="md:flex   mx-auto items-center">
+                <div class=" bg-indigo-300 p-8 rounded-xl mt-4 md:mt-0 md:w-3/5 md:mr-4">
+                    <h1 class="text-white text-3xl font-bold">Please Deposit</h1>
+                    <input type="text"id="depo_id"placeholder="$amount you want to deposite"class="mt-5 ml-5 p-2 md:w-3/4"><br>
+
+                    <button type="submit"id="baton1"class="btn mt-5 ml-5 bg-violet-900 text-white p-2 rounded ">Deposit</button>
+                </div>
+                <div class="bg-fuchsia-300 p-8 rounded-xl mt-4 md:mt-0 md:w-3/5 md:mr-4">
+                    <h1 class="text-white text-3xl font-bold">Please Withdraw</h1>
+                    <input type="text"id="with_id"placeholder="$amount you want to withdraw"class="mt-5 ml-5 p-2 md:w-3/4"><br>
+
+                    <button type="submit"id="baton2"class="btn mt-5 ml-5 bg-fuchsia-900 text-white p-2 rounded ">Withdraw</button>
+                </div>
+                                   
+            </div>
+        </section>
+
+     
+    </div>
+</div>
+
+<script src="script2.js"></script>
+<script src="script3.js"></script>
+
+</body>
+</html>
